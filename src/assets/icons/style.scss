@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?spts9e');
+  src:  url('fonts/icomoon.eot?spts9e#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?spts9e') format('truetype'),
+    url('fonts/icomoon.woff?spts9e') format('woff'),
+    url('fonts/icomoon.svg?spts9e#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shopping-cart:before {
+  content: "\e909";
+  font-size: 60px;
+  color: #3a3a3a;
+}
+.icon-location_on:before {
+  content: "\e908";
+  // font-size: 60px;
+}
+.icon-microphone-outline:before {
+  content: "\e90a";
+  font-size: 60px;color:#3a3a3a;
+}
+.icon-bike:before {
+  content: "\e90b";
+  font-size: 60px;
+  color: #3a3a3a;
+}
+.icon-phone:before {
+  content: "\e902";
+  // font-size: 60px;
+}
+.icon-fax:before {
+  content: "\e902";
+  // font-size: 60px;
+}
+.icon-contact:before {
+  content: "\e902";font-size: 60px;
+}
+.icon-office:before {
+  content: "\e902";
+}
+.icon-anchor:before {
+  content: "\e903";
+  font-size: 60px;
+  color: #3a3a3a;
+}
+.icon-camera:before {
+  content: "\e904";
+  font-size: 60px;
+  color: #3a3a3a;
+}
+.icon-paperplane:before {
+  content: "\e905";
+  font-size: 60px;
+  color: #3a3a3a;
+}
+.icon-phone1:before {
+  content: "\e906";
+}
+.icon-contact1:before {
+  content: "\e906";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-arrow-left2:before {
+  content: "\ea40";
+  // font-size: 40px;
+}
+.icon-facebook:before {
+  content: "\ea90";
+  // font-size: 35px;
+}
+.icon-twitter:before {
+  content: "\ea96";
+  // font-size: 30px;
+
+}
+.icon-flask:before {
+  content: "\e90d";
+  font-size: 60px;
+  color: #3a3a3a;
+}
+.icon-rocket:before {
+  content: "\e90c";
+  font-size: 60px;
+  color: #3a3a3a;
+}
+.icon-envelope:before {
+  content: "\e907";
+}
+.icon-linkedin:before {
+  content: "\e900";
+  // color: #0077b5;
+  // font-size: 35px;
+}
+.icon-pinterest:before {
+  content: "\e901";
+  // color: #bd081c;
+  // font-size: 35px;
+}
+.icon-folder-open:before {
+  content: "\e930";
+}
+.icon-calendar:before {
+  content: "\e953";
+}

@@ -1,0 +1,106 @@
+.map-blue{
+    background: #071021 url('../../../assets/images/map.png') ;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh ;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+ 
+   .map-container{
+    // text-align: center;
+    // border: 3px solid rgb(151, 47, 47);
+    .map-title{
+        color: #fff; 
+        text-align: center;
+        font-weight: 300;
+    }
+    .map-decs{
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .map-btn{
+        padding: 10px 35px;
+        font-size: 16px;
+        font-weight: 300;
+        border-radius: 50px;
+        color: #fff;
+        background-color: #0960d7;
+        margin: 30px;
+        &:hover{
+        background-color: rgba(0, 0, 0, 0.744);
+        color: rgb(203, 205, 195);
+
+
+        }
+        @media screen and (max-width:767px){
+            min-width: 150px;
+            padding: 10px 25px;
+        }
+    }
+
+    .data-part{
+        // border: 5px solid #526c9b;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        .data-info{
+            font-size: 28px;
+            width: 25%;
+            span{
+                font-size: 16px;
+                color: #0960d7;
+            }
+        }
+    }
+   }
+
+   @media screen and (max-width:991px){
+        .map-container{
+            // border: 3px solid #fff;
+            .map-title{
+                font-size: 30px;
+            }
+            .map-decs{font-size: 15px;}
+            .data-part{
+                
+                // border: 3px solid #fff;
+                .data-info{
+                    font-size: 24px;
+                }
+            }
+        }
+   }
+
+   @media screen and (max-width:767px){
+    .map-container{
+        // border: 3px solid #fff;
+        padding-top: 50px;
+        .map-title{
+            font-size:20px;
+            padding-top: 50px;
+        }
+        .map-btn{display: none;}
+        .map-decs{font-size: 15px;}
+        .data-part{
+            // display: block;
+            padding-bottom:100px;
+            // border: 3px solid #fff;
+            .data-info{
+                font-size: 15px;
+                width: 40%;
+                
+            }
+        }
+    }
+}
+}

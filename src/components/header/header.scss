@@ -1,0 +1,158 @@
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color:transparent;
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+        position: relative;
+.navbar-brand{
+    font-size: 22px;
+    span{font-weight: 800;}
+}
+        // width: 1200px;
+        // margin: 0 auto;
+        .menu-items-open {
+            position: absolute;
+            top: 35%;
+            right: 0;
+            background-color:transparent;
+            width: 500px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            list-style-type: none;
+            align-items: center;
+            visibility: visible;
+           
+
+            @media screen and (max-width:768px) {
+                visibility: hidden;
+            }
+
+        }
+
+        .menu-items-close {
+            visibility: hidden;
+            position: absolute;
+            top: -100px;
+            right:  0;
+            height: 0;
+            background-color: rgb(59, 104, 104);
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            list-style-type: none;
+            align-items: center;
+            z-index: 1;
+           transition:  2s all ease;
+
+            @media screen and (max-width:768px) {
+                visibility: visible;
+        //    transition:  2s all ease;
+           height: 100vh;
+           top:0;
+                
+            }
+        }
+        .aa{
+            top: 0;
+            height: 100vh;
+        }
+
+        // .burger-menu{
+        //     padding: 15px;
+        //     background-color: aqua;
+        //     z-index: 2;
+        //     visibility: hidden;
+        //     @media screen and (max-width:768px) {
+        //         visibility: visible;
+        //     }
+        // }
+
+        .burger-icon {
+            visibility: hidden;
+            width: 60px;
+            height: 60px;
+            // background-color: darkgray;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap: 8px;
+           flex-flow: column;
+           z-index: 2;
+           transition:  2s all ease;
+            .icon-1 {
+                width: 32px;
+                height: 3px;
+                background-color: black;
+           transition:  2s all ease;
+
+             
+            }
+            .icon-2 {
+                width: 32px;
+                height: 2px;
+                background-color: black;
+                
+           transition:  2s all ease;
+
+            }
+            .icon-3 {
+                width: 32px;
+                height: 3px;
+                background-color: black; 
+               
+           transition:  2s all ease;
+
+            }
+
+
+            @media screen and (max-width:768px) {
+                visibility: visible;
+                position: relative;
+                
+                .close-1{
+                    background-color: red;
+                    position: absolute;
+                    width: 32px;
+                    height: 2px;
+                    // top:50%;
+                    // left:50%;
+                    // transform: translate(-50%,-50%);
+                     transform: rotate(45deg);
+           transition:  2s all ease;
+
+                }
+                .close-2{
+                    width: 32px;
+                    height: 2px;
+                    background-color: green;
+                    transform: rotate(-45deg);
+                    position: absolute;
+           transition:  2s all ease;
+
+                }
+                .close-3{
+                    width: 32px;
+                    height: 2px;
+                    opacity: 0;
+           transition:  2s all ease;
+
+                }
+            }
+
+        }
+    }   
+}
+
+.header0{
+    position: fixed;
+}

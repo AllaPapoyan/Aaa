@@ -1,0 +1,34 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-size: 62px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3{
+  font-size: 32px;
+}
+
+h1,h2,h3,h4,h5 {
+  color: #26292c;
+}
+
+ p {
+  margin-top: 40px;
+}
+
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

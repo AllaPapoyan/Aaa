@@ -1,0 +1,14 @@
+.G-container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    // background-color: antiquewhite;
+    ///////@media
+    @media screen and (max-width:991px) {
+        padding: 10px 20px;
+        margin: 0 auto;
+    //    background-color: transparent;
+      
+    }
+}

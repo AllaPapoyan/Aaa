@@ -1,0 +1,45 @@
+.info-container{
+    width: 100%;
+    // background-color: rgb(215, 225, 250);
+    padding: 40px 0;
+    .information{
+        .info-row{
+            display: flex;
+            justify-content: space-between;
+            flex-flow: row;
+            gap: 10px;
+            .responsive-design{
+                width:500px;
+            }
+            .img-ipad{
+                width:600px;
+            }
+
+
+    @media screen and (max-width:991px){
+        justify-content: center;
+        flex-flow: row;
+        .responsive-design{
+            width:400px;
+        }
+        .img-ipad{
+            width:500px;
+        }
+    }
+
+    @media screen and (max-width:767px){
+        justify-content: center;
+        flex-flow: column;
+        .responsive-design{
+            width: 100%;
+        }
+        .img-ipad{
+            display: none;
+        }
+    }
+
+
+        }
+    }
+
+}

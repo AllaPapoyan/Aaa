@@ -1,0 +1,23 @@
+.portfolioBg{
+    background-image:url('../../../assets/images/portfolio-hero.jpg') ;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    .bg-container{
+        width: 100%;
+        height: 100%;
+        background-color:rgba(38,39,45,0.5);
+        display: flex;
+        align-items: center;
+       text-align: center;
+       color: aliceblue;
+       .bg-title{
+        color: aliceblue;
+        font-weight: 200;
+       }
+       p{font-size: 18px;}
+    }
+    
+}
