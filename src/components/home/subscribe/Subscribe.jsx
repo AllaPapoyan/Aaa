@@ -3,7 +3,7 @@ import './Subscribe.scss'
 
 function Subscribe() {
 
-    const [submit, useSubmit] = useState("")
+    const [submit, setSubmit] = useState("")
     const [err, setErr] = useState("")
 
     function isSubERR(val) {
@@ -23,7 +23,7 @@ function Subscribe() {
             <input type="email"
                 placeholder='Your e-mail'
                 className='question'
-                onChange={(e)=>useSubmit(e.target.value)}
+                onChange={(e)=>setSubmit(e.target.value)}
             />
             <button className='BtnSubmit' onClick={() => {
                 isSubERR(submit)
